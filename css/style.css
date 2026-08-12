@@ -2136,3 +2136,25 @@ ul{
     }
 
 }
+
+.site-header{
+
+    transition:
+        background .4s ease,
+        backdrop-filter .4s ease;
+
+}
+
+
+.site-header.scrolled{
+
+    position:fixed;
+
+    background:rgba(10,10,10,.92);
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.08);
+
+}
